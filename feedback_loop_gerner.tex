@@ -1,0 +1,193 @@
+\documentclass[11pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{makeidx}
+\usepackage{lmodern}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\usepackage[style=authoryear]{biblatex}
+\usepackage{csquotes}
+\addbibresource{bibliografie_baka.bib}
+
+\author{David Gerner}
+\title{Přehledová studie konceptů zpětnovazebních smyček napříč obory}
+
+\begin{document}
+
+\begin{titlepage}
+\maketitle
+\end{titlepage}
+
+\tableofcontents
+\pagebreak
+
+\section*{Úvod}
+
+Cílem práce je přinést přehled konceptů zpětnovazebních smyček ve vybraných oborech, na kterých bude ilustrována nedostatečnost formalistického a kvantitativního přístupu k informaci. Zpětnovazební smyčky se dají rozpoznat v mnoha systémech a mají jistou úlohu na mnoha úrovních, jak vysoce teoretických a formálních, tak velmi blízko žité zkušenosti lidí. Díky tomu je vhodným kandidátem pro ilustraci potřeby posunu od trvání na formalismu užití termínu informace, bez jejího rozboru co se do obsahu týče, k jejímu rozšíření a dialektickému pojetí, které ji přímo sváže s každou konkrétní žitou zkušeností. 
+
+Samo vymezení dialektického pojetí informace, potažmo informační vědy, není záměrem této práce, s největší pravděpodobností v ní ale budou podniknuty některé kroky, které toto v budoucnu usnadní. Vybrané obory, ve kterých bude koncept zpětnovazební smyčky prozkoumávány, budou ilustrovat jednotlivé kroky, kterými se informační věda může vydat k aplikovanému pojetí informace pro žitou zkušenost.
+
+Prvním vybraným oborem bude kybernetika, ze které pochází definice základního, rigidního konceptu zpětnovazební smyčky a vůbec sama myšlenka, že je komunikaci možno definovat matematicky.
+
+... Následujícím oborem bude aplikovaná statistika ve společenských systémech, zastoupena Matoušovým efektem. Ten ukáže, proč mnozí vidí spásu v kvantitativní formulaci informačních konceptů. Zároveň ale již zde začne být zřejmé, že kvantitativní model komunikace k popisu reálného světa nestačí.
+
+Završením cesty k dialektickému pojetí informace bude nauka o porozumění, respektive její metafora hermeneutického kruhu. Poznání a porozumění, jakožto snaha o přímé formalizované uchopení žité zkušenosti a smíření jejích paradoxů (snad) dostatečně ukáže potřebu pro posun informační teorie v tomto směru.
+
+Bonusovou třešinkou na dortu pak bude krátký exkurz do mytična a folklóru, které jsou žité zkušenosti nejblíž, ale chybí jim nárok na formálnost, který by vyžadoval jakoukoli koncepci informace. Proto také nejvíce trpí rigidní aplikací informační teorie. Pro rozvoj informační teorie jsou ovšem nepostradatelné, vždyť tvoří většinu objemu komunikace a navíc byly jejich prostřednictvím předávány informace po milénia, tudíž jejich informační hodnota je nezanedbatelná (\cite{mcdowell_storytelling_2021}).
+
+
+
+%mutual causal interaction vs zpětná vazba kybernetická - mutual causal je zacyklený kauzální vztah, kdežto pravá feedback loop je bez příčiny, sama ze sebe, je to vlastnost systému - většina biologických bude spíše mutual causal protože něco dá o svém stavu zprávu CNS a ta na základě toho reague - zpětná vazba od někoho pro něco a ne v sobě. (zkusit se možná spojit a pobavit o tom s Emou, to byl dobrej meet).
+
+
+%demonstrace toho, že formalismus který kybernetika a informační věda přijaly za vlastní vlastně podstatu informací nevyjadřuje a že kvantitativní metody nelze použít pro vyvození chování jednotlivých projevů konkrétních informačních entit z obecných pouček a pravidel formulovaných na základě onoho formalismu, ke kterému se informační věda uchýlila.
+\pagebreak
+
+
+\section*{Metoda}
+
+Ověření platnosti metody a následování směru práce je v teoretických pracích složitější, než-li v praktických, ač jsou obecně na teoretické práce kladeny o něco menší požadavky na rigiditu, zejména co se práce s daty týče. Pod samotným termínem \textit{teorie} se rozumí mnoho různých věcí, od různých pracovních hypotéz a jejich částí přes vágní útržkovité spekulace až po axiomatické myšlenkové systémy (\cite{calhoun_sociological_2007}, s. 448-459). Důležitým vhledem do vědeckých teorií je to, že nejsou pravdivé. Jsou totiž tvořeny induktivním způsobem, tedy posunem od konkrétního k obecnému. Nejsou tak objevovány, ale vytvářeny (\cite{mintzberg_developing_2014}). Důležitým požadavkem samozřejmě je, aby teorie reflektovala velký set pozorování (\cite{hawking_brief_1998}, s. 10). Vědecká komunita s teoriemi a jejich modely pracuje, jako kdyby pravdivé byly, vždy do té doby, dokud není nalezen model, který by lépe odpovídal na otázky, které jsou v dané době či kontextu relevantní (\cite{barbara_m_wildemuth_questions_2017}, s. 42). Samotné výjimky teorii nevyvrací, ale mohou dosáhnout kritické masy, kdy je lepší model nutně zapotřebí (\cite{kuhn_structure_2012}).  
+
+Standardním postupem vědeckým postupem při (například při tvorbě teorií anebo při popisu jevů) je definovat základní pojmy a koncepty. Pojem "konceptu" často pokládán za zřejmý ze sebe sama. Chceme-li ale zjistit, jak k jejich tvorbě dochází a prozkoumat jej hlouběji, schopnost vyjádřit podstatu tohoto základního pojmu uniká. Je snad třeba utvořit \textit{koncept konceptu}? Tento rozbor nabízí dvě perspektivy. Jedna koncept vnímá jako jednotu v mnohosti, druhá se odvolává na obecné vlastnosti. Spojení těchto dvou perspektiv napoví, že se onou jednotou v mnohosti míní právě ty univerzální vlastnosti, které daný koncept ohraničuje. Pro to musí být nějak vymezeny a pojmenovány, aby bylo možné je komunikovat jako pojmy konstitutivní povahy ve větách (\cite{strauss_scope_2002}, s. 165). Při této snaze dojde k nekonečné regresi pojmů. Možná by bylo možné ji vysvětlit pomocí Peircova procesu semiózy, možná pomocí jiné teorie, nicméně pro tuto práci to není podstatné. V duchu kybernetické perspektivy se totiž nebudeme ptát "\textit{co?}", ale "\textit{jak?}". Strauss argumentuje pro intuitiionistický přístup, cituje přitom Paula Bernayho: "\textit{Vlastnost celosti nepopiratelně patří ke geometrické idei kontinua. A je to tato charakteristika, která vzdoruje úplné aritmetizaci kontinua}" (\cite{strauss_scope_2002, bernays_abhandlungen_1976}, s. 74). 
+
+Jedním z postupů, který je při tvorbě nové teorie možné použít, je přístup Glasera a Strausse k \textit{podložené teorii}. Teorie by podle tohoto přístupu neměla vznikat ve vakuu, ale měla by vznikat společně s daty, generovat se z nich. (\cite{glaser_discovery_2017}; \cite{barbara_m_wildemuth_questions_2017}, s. 43). Tato metoda je aplikovatelná, pakliže práce zahrnuje sběr a interpretaci dat.
+
+V pracích ryze teoretických a v přehledových studiích, jako je tato, nelze metodu vytvářet z dat jednoduše proto, že žádná k dispozici nejsou. Je tedy třeba postupovat jinak. Jednou z možných metod jsou techniky věcnosti Petra Rezka, které ve sérii přednášek s názvem Antidiskotéka, nebo ve stejnojmenném článku, dal dohromady profesor Vojtěch Kolman (\cite{kolman_antidiskoteka_2022}). 
+
+První technikou věcnosti je vhled vycházející z Husserlova díla, že nelze o věci mluvit přímo. V případě, že se snažíme mluvit o věci přímo, soustředíme se na naše mluvení o věci, a ne na věc samotnou. Místo k věci se obracíme k sobě samému. Dle Rezka, "věc stačí obcházet, a když nic nevnucujeme, objevuje se sama". Tuto techniku nazývá Kolman \textbf{hraniční přístup}. Když jsou pojmy a koncepty dotlačeny na hranice, kde má naše intuice šanci selhat, teprve se zjevují takové, jaké jsou (\cite{rezek_telo_2010}, s. 13).
+
+Další z technik je \textbf{opakování}. Dle slavného Heraklitova výroku, "\textit{dvakrát nevstoupíš do téže řeky}". Rezek, a potažmo Kolman, se ale ptají, co se bude dít, pokud by se člověk přeci jen pokusil vkročit do téže řeky. Zatímco Heraklitův výrok odkazuje na nevratné změny, které pramení z plynutí času (Wiener by řekl z Bergsoniánského evolučního nevratného času (\cite{wiener_cybernetics_2019}, s. 103)), Rezek, společně s Kolmanem a Wittgensteinem (\cite{wittgenstein_tractatus_2010}) v technice opakování naopak tvrdí, že až právě v něm je poznat, co dělá věc tím, čím je, že naopak jsou řeky tím, že do nich člověk vstupuje vícekrát a že člověk dělá člověkem to, že někam může vícekrát vstoupit. To, co se mezi jednotlivými opakováními nezmění, podstatným způsobem poukazuje k podstatě věci (\cite{rezek_telo_2010}, s. 26). Podstatou věci se nemyslí nějaký skrytý, zastřený význam, kte kterému je třeba proniknout jeho odkrytím. Podstatou věci se myslí to, o čem daná věc je - použitím pojmu pro ozačení dané věci jsme provedli pohyb od její partikularity do abstrakce, a proto je nutné provést výkon, který z abstrakce znovu osvětlí podstatu dané partikularity. Nejde tedy o snahu proniknout "za věc", ale spíše se znovu zorientovat ve světě a místo oné věci v něm.
+
+Třetí technikou věcnosti je \textbf{pars pro toto}. Rezek mluví o části (uměleckého) díla, ve které je samo dílo obsaženo celé. Prostým převyprávěním děje či rozborem díla se tomu, o co se dílo pokouší, rozhodně nepřiblížíme. (\cite{rezek_telo_2010}). Kolman se ve svých přednáškách odvolává na Hegela: "\textit{Protože část, má-li být pravdivá, nesmí být jen ojedinělým momentem, nýbrž musí být sama totalitou}" (\cite{hegel_mala_1992}). Tím naráží na perspektivnost, které se později věnovali fenomenologové - Merleau-Ponty, Husserl či Heidegger. Pro člověka - tělesně situovaný subjekt, pro kterého se věci jeví -  není celek nikdy přítomen, vždy má k dispozici jen část skutečnosti a systém poukazů ke zbytku. (Kolman, přednášky Antidiskotéka, 2023)
+
+Poslední technikou věcnosti je \textbf{osamostatnění} - epoché čili transcendentální redukce. Zde jde o to, vytrhnout danou věc z jejích zavedených kontextů, osamostatnit ji, a tím ji ukázat jakoby nahou, oproštěnou od vztahů, skrze které jsme k ní přistupovali. Skvělým, byť mírně naturalistickým příkladem, je ucho, které hlavní hrdina nalezne v Lynchově Modrém sametu. Na takovém uchu je obyčejně pramálo zvláštního či zapamatováníhodného. Když jej ale objeví na louce v trávě, po právu vzbudí jeho pozornost. Jen to hrdina pokazí tím, že se začne zajímat o jeho nové kontexty a jejich jevení se, místo toho, aby se o něco více přiblížil uchu samotnému.
+
+Předcházející i nadcházející část metodická sekce se zakládají především na několika cyklech přednášek profesora Kolmana, které jsem navštěvoval. Jsem si jist, že jsou tato témata více dopodrobna prozkoumána v jeho mnohých knihách, já se spolehl na své vlastní porozumění a extenzivní zápisky, které jsem si z přednášek odnesl. Mnoho jeho přednášek, a i tyto techniky věcnosti, nakonec vedou k otázce, kterou se filozofie zabývá prakticky od samého počátku. Jak vytvořit svůj konzistentní systém sama ze sebe, bez nutnosti transcendentní jistoty. Hegel napovídá, že je pro úspěšnou tvorbu takového systému nejprve zapotřebí nebát se omylu (Kolman, přednášky Falibilismus, 2024). Peirce a Wittgenstein tomu přitakávají při kritice Descartovy metodické skepse. Descartes totiž tvrdí, že svou filozofii založil na úplné pochybnosti pochybnosti, že se oprostil od úplně všeho a začíná s čistým štítem (\cite{descartes_meditace_2004}). Peirce na to ale namítá, že \textit{jsou věci, které nás ani nenapadnou, že mohou být zpochybněny. Proto je zapotřebí začít se všemi pochybnostmi, které máme. Takový absolutní skepticismus by totiž byl pouhým sebeklamem, ne pravou pochybností; a nikdo, kdo užívá karteziánskou metodu nebude nikdy spokojen dokud formálně nedosáhne všeho, čeho se zbavil} (\cite{peirce_consequences_1991}, § 5.266). Wittgenstein potom dodává, že jednou z takových věcí, které Descarta nenapadlo zpochybnit, je jazyk, kterým svou pochybnost formuluje. Ve své knize On certainty také píše: "\textit{kdo by snad chtěl pochybovat o všem, nedostal by se ani k tomu, aby pochyboval o něčem. Sama hra pochybování předpokládá jistotu}" (\cite{wittgenstein_certainty_1969}, § 115).
+
+Hermeneutika, tedy nauka o porozumění a interpretaci [textů], se potýká s podobným problémem. S tímto typem výkonu samozřejmě souvisí snaha zbavit se předsudků a předporozumění, s jakými k textu přistupujeme, abychom byli doopravdy s to počít, co se autor pokouší sdělit. Jedním z problémů, se kterým se hermeneutika vždy potýkala, tak byl problém kruhovitosti porozumění. Pro správné pochopení pochopení textu by bylo ideální již vědět, o čem se autor snažil mluvit, tedy text znát. To ale čtenář nemůže zjistit, pokud si již text nepřečte (anebo mu to někdo neřekne). Tento problém vztahu celku textu a jeho částí znázorňuje metafora hermeneutického kruhu. V počátcích hermeneutiky jako zvláštní disciplíny byl hermeneutický kruh vnímán negativně, byla snaha se této kruhové interpretaci (a vlivu existujících předsudků a porozumění na ni) vyhnout. Stejně jako Wittgenstein a Peirce, moderní hermeneutici (Gaddamer, Dithley a Heidegger) si uvědomili, že existujícím předpojatostem a není vyhnutí, a tak se snažili "\textit{do hermeneutického kruhu správně nastoupit}". Z problému se tak stala metoda, namísto vyhýbání se kruhu se začal kruh dělat tak, aby byl přínosný. 
+
+Tento vztah celku a částí a jejich vliv na porozumění vnímám také jako zpětnovazební smyčku. V souladu s metodou věcnosti opakování by bylo žádoucí číst ten samý text několikrát dokola, aby bylo předporozumění textu, které bude mít vliv na interpretaci jeho částí, stále bližší a bližší textu samotnému. Každé přečtení by přineslo nový vhled na části textu, a každá nova interpretace části by posunula porozumění textu jako celku. 
+
+Začít jinak, než se všemi omyly, které současný stav poznání ve dané disciplíně, nebo osobnostní fond jednotlivce, obsahuje, nejde. Ani v  kontrolních systémech to nejde jinak. Kontrolované zpětnovazební smyčky v nich slouží právě k opravě chyb a neočekávaných událostí, které při chodu systému mohou nastat. Proto se mi tento postup jeví jako optimální a chci jej zohlednit při práci tak, že budeme vycházet z existujících definic a koncepcí a pracovat s nimi.
+
+O tuto metodu se chci pokusit v této práci. Zpětnovazební smyčka bude z počátku definována v kybernetickém slova smyslu. V rámci metodiky hermeneutického kruhu bude tato definice znovu a znovu navštěvována tak, jak budou do znalostního fondu práce přibývat nové informace, které nám umožní její definici rozšířit i pro použití v dalších systémech. Nakonec, díky pomyslnému vrcholu toho posouvání v pojednání o samotném hermeneutickém kruhu, metodě porozumění textu, bude možné aplikovat popisovanou metodu samu na sebe. Pokud dokáže tvořená metoda uspokojivě popsat samu sebe, bude možné podávaný teoretický systém považovat za konzistentní. 
+
+\pagebreak
+
+
+\section{Kybernetika a rozhodování, prvotní definice zpětnovazební smyčky}
+
+\subsection{Čím se zabývá kybernetika}
+Kybernetika je transoborová disciplína, která vznikla v půlce 20. století v americkém akademickém prostředí. Jejím záměrem je komplexně řešit problémy týkající se komunikace, řízení a statistických mechanik v systémech, ať už umělých či živých (\cite{wiener_cybernetics_2019}, s. 65-66). U jejího zrodu stál tým vědců složených z nejrůznějších oborů, matematici (Wiener, von Neumann, Pitts), konstruktéři výpočetních zařízení (Goldstine), fyziologové (Rosenblueth, McCulloch), psychologové (Klüver, Lewin)  či sociologové (Schneirla, Morgenstern).  Součástí týmu byl dokonce i jeden filozof, F. C. S. Northrup. 
+
+Inspirováni posuny v kvantové mechanice, zejména Heisenbergovou formulací statistického modelu (\cite{heisenberg_uber_1925, waerden_sources_1968}), který dokázal smířit rozpor mezi speciálními teoriemi, která každá dokázala vysvětlit jeden specifický fenomén, který kvantovou teorii trápil, ale žalostně selhávala při konfrontacemi s fenomény ostatními, zvolili statistický matematický model jako odpovídající základ své teorie. 
+
+Jako fundamentální problém svého nového oboru totiž vymezili "zprávu", kterou definovali jako \textit{diskrétní nebo spojitou sekvenci měřitelných událostí distibuovaných v čase - přesně to, co statistici nazývají časová řada} (\cite{wiener_cybernetics_2019}, s. 63). Tato zpráva je přenášena nějakým médiem, ať už je to mechanicky, elektronicky nebo biochemicky. Ve stejné době na podobných principech založil svůj matematický model komunikace i Claude Shannon. Jeho model se věnuje problematice signálů, kterými je zpráva kódována, kanálů, kterými je přenášena nebo například šumu, který do procesu komunikace vstupuje (\cite{shannon_mathematical_1998}).
+
+Zatímco se informační teorie zabývá přenosem a kódováním zprávy (matematický model komunikace), kybernetika sleduje spíše pohyb zprávy v systému a její působení na chod a řízení systému (matematický model řízení a kontroly). Nezabývá se nutně konkrétní aplikací, ale funkčností systému a jeho chováním. Fundamentální otázkou kybernetiky tak není "\textit{co to je?}", ale "\textit{co to dělá?}" (\cite{ashby_introduction_2015}, s. 1) 
+
+
+\subsection{Vymezení systému}
+
+\subsubsection{Původ systémové teorie}
+
+Koncept systému v dnešním pojetí se začal objevovat v 19. století, během průmyslové revoluce. S vymezením obecné systémové teorie přišel biolog Karl Ludwig von Bertalanffy v roce 1945 v článku \textit{K obecné systémové teorii. Listy pro německou filozofii} (orig. Zu einer allgemeinen Systemlehre, Blätter für deutsche Philosophie) (\cite*{bleicher_zu_1972}). Systém definuje jako "\textit{komplex prvků, které spolu interagují řazenými (nenáhodnými) způsoby}" (\cite{von_bertalanffy_general_1967}, s. 125). Přihlížejíce vývoji různých vědních oborů své doby, došel, stejně jako kybernetici (anebo proponenti takzvané \textit{teorie chaosu}), že přílišná specializace výzkumu je kontraproduktivní, a že existuje ucelený rámec, ve kterém lze, alespoň jisté typy výzkumu, konzistentně provádět. Vypozoroval především dvě skutečnosti. 
+
+Zaprvé, že komplexní celky s mnoha provázanými částmi přestávají být redukovány na pouhé sumy těchto částí, a že přestává být obecný konsenzus na tom, že lze tyto části prozkoumat v izolaci, následně je poskládat zpět a získat dobrý obraz celku. Od biologických oborů přes \textit{gestalt} psychologii či ekonomiku až po filozofii (teorii kategorií, emergentní evoluce dialektický materialismus), trend byl jasný. Stále více vědců přicházelo s tvrzením, že zaměření se na dynamiku těchto komplexů namísto na jejich jednotlivé části je základem pro moderní koncepci světa. Tato souvislost je o to překvapivější, nakolik jsou tyto vývoje nezávislé na sobě, v disciplínách, které mají úplně odlišné znalostní báze a filozofické perspektivy. Dle von Bertalanffyho otevírají nové perspektivy jak ve vědě, tak v životě, ale zároveň přinášejí závažná rizika. (\cite{von_bertalanffy_outline_1950}, str. 135-137)
+
+Zadruhé vypozoroval fakt, že mnoho zákonů, modelů a konceptů v naprosto rozdílných vědních oborech je formálně totožných, anebo izomorfních. Jako příklad uvádí různé diferenciální rovnice ve fyzice, které slouží k popisu naprosto odlišných, přesto matematicky totožných, skutečností. Také uvádí samotný koncept atomismu, realizován ve fyzice v samotných atomech, v mikroorganismech a buněčných strukturách v biologii nebo v lidských jedincích v ekonomii a sociologii. Identifikuje tři důvody pro tyto izomorfismy. (\cite{von_bertalanffy_outline_1950}, str. 137)
+
+Prvním dva jsou si velmi podobné. Ač není problém vytvořit libovolné množství komplikovaných diferenciálních rovnic, je jen omezený počet jednoduchých rovnic, které jsou řešitelné, a které jsou tak preferovány pro popis různých fenoménů. Stejně tak i jazyk poskytuje jen omezený počet koncepcí a schémat, které je možné rozumně počnout, a tak budou podobně aplikována v mnoha různých odvětvích. V duchu Leibnizova \textit{žijeme v nejlepším z možných světů} nabízí k zamyšlení, že by tomu tak nemuselo být, pokud by byl svět natolik chaotický a jednotlivé fenomény natolik jedinečné, že by nebylo možné vykonstruovat jednoduchá, srozumitelná schémata v rámci našich omezených kognitivních schopností, nicméně naštěstí tomu tak prý není. (\cite{von_bertalanffy_outline_1950}, str. 138)
+
+Třetí důvod pro izomorfii v konceptech a popisech je ten, kterému věnuje největší pozornost. Shledává, že existují určité třídy problémů, pro které se hodí určité typy zákonů a koncepcí. Z toho abstrahuje, že existují \textit{obecné systémové zákony}, které jsou platné pro libovolný systém daného typu, bez ohledu na konkrétní vlastnosti systému či jeho částí. Izomorfní zákony v odlišných oborech můžeme najít díky strukturální korespondence nebo logická homologie mezi systémy, které jsou naprosto rozdílné povahy. Proto je zapotřebí obecné systémové teorie, která zajistí obecnou superstrukturu vědy. Jako mnozí ostatní, i on se jal tento problém vymezit a definovat. Jedním z důležitých zákonů, které formuloval, je parabolický zákon, který je velmi podobný zpětnovazební smyčce, kterou definovali kybernetici. (\cite{von_bertalanffy_outline_1950}, str. 139-140)
+
+
+\subsubsection{Záměr systémové teorie}
+
+Závěrem, který z von Bertalanffyho pozorování implicitně vyplívá, ale explicitně jej nevysloví, je primát statistického funkčního modelu v systémové teorii. Ideál obecně platných zákonů ve vědě pochází z teoretické fyziky a chemie. I když ostatní vědecké domény, jako například biologie, mají jisté obecné koncepty, ke kterým je možné se univerzálně odkázat, neoplývají rigiditou a jasným metodologickým pozadím, jaké mají fyzikální a chemické zákony, zákony formulující takzvaný mechanistický pohled. Proto bylo dlouho vědeckým konsenzem, že pokud je třeba stanovit exaktní zákony pro jakékoli pole, je třeba jej redukovat na fyzikální a chemické veličiny. Už ale při pokusu stanovit exaktní fyzikálně-chemické skutečnosti jednoduché buňky, věda žalostně selhává. Žádný popis buňky na úrovni atomů či molekul a fyzikálních vazeb mezi jimi, či chemických procesů, které mezi nimi probíhají, nedokázal popsat význam buňky v biologickém systému těl, kterých je esenciální součástí. Situace je samozřejmě o to horší v mnohem komplexnějších společenských systémech, které ani nelze jednoduše redukovat na fyzikálně-chemické události. Proto byl prevalentním pohledem té doby, že stanovit exaktní zákony pro tyto vědy jednoduše nelze. (\cite{von_bertalanffy_outline_1950}, str. 140-141)
+
+Von Bertalanffy argumentuje, že i pro fyzikální koncepty je nutné provést dalekosáhlé úpravy a dokonce rozšíření, mají-li být použity v nových kontextech. Namísto mechanistické koncepce tak zavádí pojem \textit{strat skutečnosti}. Uvadí:  "\textit{Pokud není možné popsat všechny změny všech jednotlivých molekul plynu v Laplacově formuli, lze pomocí Boltzmannovy konstanty formulovat statistické pravidlo, které popisuje průměrný vektor chování mnoha jednotlivých molekul}" (\cite*{von_bertalanffy_outline_1950}, str. 141). Navrhuje vytvořit pro danou situaci systém, který není fyzikou, ale je stejné formy jako fyzika - matematický hypoteticko-deduktivní systém. Pokud by byly formulovány principy platné pro tyto entity "systémy", bylo by možné tuto proceduru aplikovat konzistentně. Fyzikální systémy by tak byly pouhou podkategorií, jednou z mnoha těchto systémových entit. Obecná systémová teorie by ale neměla být souborem známých diferenciálních rovnic a jejich řešení. V mnoha ostatních polích existují dobře definované problémy, které je dle von Bertalanffyho nutné generalizovat a popsat fyzikálním způsobem. Obecná systémová teorie by se měla stát holistickým hlídacím psem vědy, který na jedné straně zajistí, že nebude třeba činit multiplicitní objevy zákonů v různých disciplínách, a na straně druhé zajistí, že nebudou zákony slepě přenášeny na základě vnějších či náhodných podobností mezi vědními obory a objevy. Díky obecné systémové teorii by se věda měla stát kompletní a celistvou v tom nejrigidnějším slova smyslu, s exaktně formulovanými zákony a jasně vymezeným rámcem. Věda by se tak měla definitivně zbavit vágnosti a metafyziky definicí exaktního systému logicko-matematických zákonů. (\cite{von_bertalanffy_outline_1950}, str. 140-143)
+
+
+\subsubsection{}
+
+
+\subsection{Zpětná vazba v kybernetice}
+
+Zpětná vazba je jedním centrálních problémů kybernetiky, dle Wienera dokonce něčím, co (\cite{wiener_cybernetics_2019}, s. 60). 
+V teorii kontrolních systémů je již dlouho využívána, první článek, který se jí dle Wienera zabývá vyšel v roce 1868 (\cite{maxwell_governors_1868, wiener_cybernetics_2019}, s. 67). 
+
+V rámci kybernetiky zpětnovazební smyčka obvykle zajišťuje sebekorekční mechanizmus systému. Princip jejího fungování jako kontrolního mechanismu systémů je následující. Výstup systému je použit jako kontrolní vstup pro jeho budoucí chování, jak v organismech, tak ve strojích. Příkladů je mnoho, od regulátoru parního stroje přes termostat ústředního topení až po moderní zdravotnické přístroje, například inzulinovou pumpu. Ve všech těchto systémech je zapotřebí, aby kontrolní element kontroloval určitý parametr a udržoval jej v určeném rozmezí. Například správně vyladěný termostat má nastavenou žádoucí teplotu, pokud je momentální teplota nižší, topení zapne a pokud je naopak vyšší, topení vypne. Špatně vyladěný termostat ale konstantní teplotu neudrží, a naopak bude kolísat kolem ní. To samé se může stát i u dobře nastaveného termostatu, pokud například necháme otevřené okno. Termostat nastavený na udržování teploty v rámci zlomků stupňů Celsia začne při otevřeném okně zbytečně přetápět. Oproti tomu termostat průmyslového mrazáku bude na větší výkyvy teploty uzpůsoben a otevřené dveře jej nerozhází, ale zase nebude schopen udržovat teplotu v tak úzkých hranicích, jako je tomu žádoucí u termostatu v domácnosti. Vidíme, že je nutné mít parametry správně nastavené pro očekávané podmínky a požadovaný efekt, a že deviace od těchto podmínek zapříčiní nedosažení požadovaného efektu, a v krajním případě může způsobit divoké kolísání celého systému (\cite{wiener_cybernetics_2019}, str. 60, 131). 
+
+Obecně zpětnovazební smyčka jako sebekorekční mechanismus nějčastěji působí PROTI směru, jakým v tu onu danou chvíli směřuje systém - aby byl zesílen vliv systému v případě, že parametr klesá pod určenou hladinu a naopak aby ubral na síle působení v případě, že je daná úroveň překračována. Jedná se proto o \textbf{negativní} zpětnovazební smyčku (\cite{wiener_cybernetics_2019}, str. 132). V systémech mohou být žádoucími i pozitivní zpětnovazební smyčky, tedy smyčky působící VE směru směřování systému. Jednoduchým příkladem pozitivní zpětnovazební smyčky je soustava mikrofonu a reproduktorů. Pokud je mikrofon umístěn tak, že snímá zvuk z reproduktorů, dochází k opakovanému zesilování signálu, který v systému je, a tím ke zvyšování hlasitosti za únosnou mez. Příkladem ze systémů, kde je pozitivní zpětnovazební smyčka žádoucí je hystereze v elektronických obvodech. Hystereze je obecná závislost systému na jeho předchozím stavu. V elektronických obvodech má podobu například právě pozitivní zpětnovazební smyčky u obvodů s operačními zesilovači. Jedním takovým je Schmittův spínač (\cite{schmitt_thermionic_1938}). Jedná se o klopný obvod s komparátorem, který slouží k převodu analogových signálů na digitální na základě hraničního bodu definovaného při konstrukci. Pozitivní zpětnovazební smyčka je zde zavedena tak, že je jeho výstup přiveden na neinvertující vstup operačního zesilovače. Slouží zde ke zvýšení odolnosti obvodu proti fluktuacím v signálu. Díky tomu, že se výstup operace sčítá s novým vstupem, je zapotřebí delšího signálu za danou hranicí pro překlopení obvodu do opačného stavu. Vzniká svého způsobu prodleva či setrvačnost signálu mezi vstupem a výstupem, a tím se zvyšuje odolnost proti kolísání vstupního signálu (\cite{otypka_schmittuv_nodate}).
+
+Wiener ve své práci ukazuje, že je možné spočítat rozsahy, v jakých se vstupy systému a parametry komponentů zpětnovazební smyčku tvořící musí pohybovat, aby systém fungoval hladce tak, jak má. 
+
+\subsection{První definice zpětnovazební smyčky}
+
+Ač je zpětnovazební smyčka základním pojmem kybernetiky, ani sami kybernetici pro ni nemají jasnou a jednotnou definici (\cite{wiener_cybernetics_2019, ashby_introduction_2015}, str. 53-54). Spoléhají spíše na intuitivní pochopení, jak jej popsal Strauss (\cite*{strauss_scope_2002}), na příklady anebo na různá schémata a nákresy (\cite{wiener_cybernetics_2019, ashby_introduction_2015, albertos_perez_feedback_2010, astrom_feedback_2021}). Všichni se ale schodnou na tom, že je důležitá vzájemná provázanost mezi systémy nebo součástmi jednoho systému. Také panuje shoda na tom, že v rámci systému musí existovat uzavřená smyčka. 
+
+Formalistická definice uzavřené smyčky v systému a vzájemného ovlivňování dvou identifikovaných částí (tedy \textit{kruhovitosti děje}) je intuitivně (intuitivisticky) poměrně pochopitelná. Postrádá ale potřebnou přesnost pro matematickou teorii a nelze na ní příliš trvat. Klasickou výtkou této definici je totiž to, že je-li aplikována plošně, lze zpětnou vazbu hledat i na místech, kde to příliš smysl nedává a kde tento koncept nepomáhá k pochopení ani k přesnému popisu toho, co se v systému odehrává. Jako příklad lze použít jednoduché kyvadlo, kdy by při aplikaci principu zpětnovazební smyčky existovala zpětná vazba mezi jeho hybností a pozicí. Uvažovat o kyvadle a soustavě rovnic, které jeho pohyb popisují, jako o kybernetickém systému samozřejmě možné je, ale pro řešení dané problematiky to nemá žádný přínos. Pokud bychom ale trvali na tom, že zpětná vazba v systému nutně musí být reprezentována nějakým médiem, cestou či spojením, kterým je realizována, naše teorie o zpětné vazbě by se stala chaotickou a zaplavenou nerelevantnostmi (\cite{ashby_introduction_2015}, str. 54). 
+
+Ashby dále dokonce uvádí, že tento rozpor není vůbec důležité řešit. Jednotlivé zpětnovazební smyčky a jejich realizace má smysl řešit pouze u jednoduchých systémů. V případě složitějších systémů, čítajících více než dvě části ve vzájemné smyčcem vyčíslení a popis jednotlivých smyček stejně nemá výpovědní hodnotu o celém systému (\cite*{ashby_introduction_2015}, tamtéž). Jsme tedy zpět u vlastnosti systémů, kterou identifikoval von Bertalanffy, totiž že vztah mezi celkem a částmi je složitější, a že k popisu celku nestačí souhrn popisů jeho částí (\cite*{von_bertalanffy_outline_1950}). Jak ale podotknul Strauss (\cite*{strauss_scope_2002}, str. 173-174), koncepce vztahu celek-části má své podstatné limity, a je tak třeba se zamýšlet, zda-li opravdu lze pohlížet na systém jako komplexní celek jeho částí, anebo zda-li se nejedná o úplně novou entitu s novými, diametrálně odlišnými vlastnostmi a principy a jestli se dá stále říci, že jsou jednotlivé zpětnovazební smyčky částmi systému.
+
+Pro účely prvotní definice zpětnovazební smyčky, s přihlédnutím ke všem znakům společným u jejich různých vyjádření použijeme mírně upravenou definici Åströma a Murrayho: \textit{zpětná vazba je, když jsou dva (a více) systémy (nebo komponenty v systému) propojeny tak, že každý ovlivňuje ten další a že tedy je jejich dynamika (změna stavu v čase) silně propojena} (coupled, párována) (\cite*{astrom_feedback_2021}, str. 1-1 (13)).
+
+Tato definice má několik výhod. Předně jistým způsobem smiřuje rozpor, který identifikoval Ashby (\cite*{ashby_introduction_2015}, str. 54). Není preskriptivní, ale deskriptivní, tudíž je zpětná vazba rozeznána až tam, kde je rozeznán systém ve smyslu GST a kybernetiky. U takového kyvadla se tedy o zpětnou vazbu vůbec nemusí jednat, pokud na něj pozorovatel nechce nazírat jako na systém veličin a vztahů mezi nimi a jejich hodnot. To by bylo možné, nicméně pro pochopitelnost určitě snazší nahlížet na rovnice chování kyvadla popisující jako na set rovnic týkajících se jediného fenoménu. Zároveň ale definice klade důraz na 
+
+
+
+
+\subsection{Kybernetika jako model živých organismů}
+
+Jednou ze základních tezí kybernetiky je, že model řízení, komunikace a kontrolních mechanismů je totožný ve strojích i v živých organismech (\cite{wiener_cybernetics_2019}, s. 
+
+K tomuto závěru došel Wiener a další lidé z jeho skupiny na základě rozeznání zpětné vazby jako nepostradatelné součásti řídících systémů. Funkčnost zpětnovazební smyčky je obvykle nezávislá na zátěži,   
+
+
+%Systémové zpětnovazební smyčky je možné rozdělit na pozitivní a negativní, dle efektu, jaký na systém mají. 
+
+%Co se týče kontrolních systémů, zajímají se spíše o zpětnovazební smyčky, které 
+
+
+\section{Krátce o nedeterministických systémech}
+
+
+
+
+
+\section{Matoušův efekt jako zpětnovazební smyčka ve společenském prostředí}
+
+
+
+
+\section{Hermeneutický kruh, porozumění a endocept}
+
+
+
+
+\section{Samsara, spirála a Ouroboros}
+
+
+
+
+\section{Jak dopadla feedback loop}
+
+
+
+
+\section{Syntéza a sjednocení}
+
+
+
+
+\section{Závěr a zhodnocení}
+
+
+\newpage
+\printbibliography[heading=bibintoc, title={Bibliografie}]
+
+\end{document}
