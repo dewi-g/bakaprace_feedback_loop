@@ -179,39 +179,34 @@ Formalistická definice uzavřené smyčky v systému a vzájemného ovlivňová
 
 Ashby dále dokonce uvádí, že tento rozpor není vůbec důležité řešit. Jednotlivé zpětnovazební smyčky a jejich realizace má smysl řešit pouze u jednoduchých systémů. V případě složitějších systémů, čítajících více než dvě části ve vzájemné smyčce, vyčíslení a popis jednotlivých smyček stejně nemá výpovědní hodnotu o celém systému (\cite*{ashby_introduction_2015}, tamtéž). Jsme tedy zpět u vlastnosti systémů, kterou identifikoval von Bertalanffy, totiž že vztah mezi celkem a částmi je složitější, a že k popisu celku nestačí souhrn popisů jeho částí (\cite*{von_bertalanffy_outline_1950}). Jak ale podotknul Strauss (\cite*{strauss_scope_2002}, str. 173-174), koncepce vztahu celek-části má své podstatné limity, a je tak třeba se zamýšlet, zda-li opravdu lze pohlížet na systém jako komplexní celek jeho částí, anebo zda-li se nejedná o úplně novou entitu s novými, diametrálně odlišnými vlastnostmi a principy a jestli se dá stále říci, že jsou jednotlivé zpětnovazební smyčky částmi systému.
 
-Pro účely prvotní definice zpětnovazební smyčky, s přihlédnutím ke všem znakům společným u jejich různých vyjádření použijeme mírně upravenou definici Åströma a Murrayho: \textit{zpětná vazba je, když jsou dva (a více) systémy (nebo komponenty v systému) propojeny tak, že každý ovlivňuje ten další a že tedy je jejich dynamika (změna stavu v čase) silně propojena} (coupled, párována) (\cite*{astrom_feedback_2021}, str. 1-1 (13)).
+Jako modelová definice poslouží definice Åströma a Murrayho: \textit{zpětná vazba je, když jsou dva (a více) systémy propojeny tak, že každý ovlivňuje ten další a že tedy je jejich dynamika (změna stavu v čase) silně propojena} (coupled, párována) (\cite*{astrom_feedback_2021}, str. 1-1 (13)). Její předností je to, že zpětná vazba nemusí být explicitně realizována, ale je kladen důraz na vzájemně propojenou dynamiku systémů. Jednotlivé systémy je možné interpretovat také jako komponenty v rámci jednoho systému.
 
-Tato definice má několik výhod. Předně jistým způsobem smiřuje rozpor, který identifikoval Ashby (\cite*{ashby_introduction_2015}, str. 54). Není preskriptivní, ale deskriptivní, tudíž je zpětná vazba rozeznána až tam, kde je rozeznán systém ve smyslu GST a kybernetiky. U takového kyvadla se tedy o zpětnou vazbu vůbec nemusí jednat, pokud na něj pozorovatel nechce nazírat jako na systém veličin a vztahů mezi nimi a jejich hodnot. To by bylo možné, nicméně pro pochopitelnost určitě snazší nahlížet na rovnice chování kyvadla popisující jako na set rovnic týkajících se jediného fenoménu. Zároveň ale definice klade důraz na 
+Definici zpětné vazby nabízí také Norbert Wiener ve své pozdější knize \textit{The Human Use of Human Beings}: \textit{zpětná vazba je metodou řízení systému navracením výsledků jeho minulé činnosti zpět do něj. Pokud jsou tyto výsdledky použity jako pouhá numerická data pro ... regulaci systému, máme jedoduchou vazbu inženýrů řídících systémů. Pokud ale je ale informace působící opačným směrem než činnost má schopnost měnit obecnou metodu a vzorech (algoritmus) činnosti, máme proces kterému můžeme dost dobře říkat učení} (1954; \cite{wiener_human_1989}, s. 61). Tato definice zpětné vazby tvrdě naráží na univerzalismus kybernetiky. Wiener s ní rozšiřuje své ztotožnění systémů umělých se systémy organickými a vysvětluje jí "učení". Nemluví při tom jenom o učení lidském, ale přirozeně na něj metaforicky navazuje a rozšiřuje tento pojem do všech systémů, o kterých má kybernetika vypovídat. Problémem této metafory je ale to, že kybernetika a informační teorie jsou speciálními případy statistiky nebo teorie časové řady, jak ve svých editorialech časopisu IEEE Transactions on Information Theory uvedli jak Claude Shannon, tak Norbert Wiener (\cite{shannon_bandwagon_1956, wiener_what_1956}). Wiener v tom svém sice je, narozdíl od Shannona, proponentem aplikace statistické teorie v co nejširším možném okruhu (Shannon by naopak upřednostnil, aby lidé jeho informační teorii brali přísně jako statistický model komunikace), nicméně o lidském učení se s jistotou nejde říci, že se jedná o proces založený na statistice. Docela jistě zde tedy svou teorii rozšířil na tuto oblast neprávem. 
 
 
 \subsection{Kybernetika jako model živých organismů}
 
+Protože je kybernetika ve své podstatě abstrakcí a nenahlíží na partikularity systémů, ale táže se po jejich obecných a společných rysech, je jenom logické, že vznáší nárok na modelování systémů řízení a kontroly ve všech systémech, od umělých, lidsky vytvořených přes parametricky se generující až po ty přírodní, jak v jednotlivých organismech tak v jejich komplexních celcích. Tuto vlastnost připisoval kybernetice Norbert Wiener už od samého počátku, kdy v průlomové knize \textit{Cybernetics, or Control and Communication in the Animal and the Machine} (1948, \cite{wiener_cybernetics_2019}) hned v úvodu přirovnává kanon, snažící se odhadnout budoucí pozici letadla pro palbu na něj k ruce snažící se zvednout tužku ze stolu. V obou případech se podle něj jedná o koordinaci pozorování, výkonu vlastního pohybu a korekce tohoto pohybu dle pozorování. Jako příklad nedostatečné zpětné vazby organismu uvádí ataxii při \textit{tabes dorsalis}, kdy je kinstetický smysl poškozen či zničen. Díky doktoru Rosenbluethovi byl schopen schopen najít i protipříklad, totiž zpětné vazby příliš citlivé, kdy pacient nedokáže úměrně kontrolovat pohyby ruky a kmitá stále více kolem požadované polohy. Tato podobnost je pro Wienera dostačujícím (a nejdůležitějším) důkazem toho, že jak mechanické, uměle sestrojené systémy, tak organické, přírodní, vykazují ty samé charakteristiky (\cite{wiener_cybernetics_2019}, s. 11-13). 
+
+Další z velkých inspirací pro tažení paralely mezi (konkrétně) lidským nervovým systémem a strojem byla diplomová práce Clauda Shannona, která se zabývala teorií relé spínacích obvodů (\cite*{shannon_symbolic_1938}). Je kanonicky známá jako jedna z nejlepších diplomových prací století. Ve skupině kybernetiků inspirovala Waltera Pittse, který se sám zabýval matematickou logikou, pro popis systémů synapsí nervových vláken. Shannonovou prací byl nadšen, a dle Wienerových slov "se jim stalo zřejmým, že ultra-rapidní výpočetní zařízení, založená na kaskádových spínacích zařízeních, musí reprezentovat téměř ideální model pro problematiku nervového systému." V té době byl neurofyziologii rozšířený koncensus na tom, že synapse fungují právě jako spínače, že je synapse buď aktivní, nebo ne (\cite{freedman_synapsesummary_1950, mcculloch_upper_1952, palay_synapses_1956}). Již v 80. letech se ale objevily důkazy pro to, že je dění na synapsích mnohem složitější, a že její modelování pomocí prostého vypnuto/zapnuto naprosto není na místě (\cite{pitman_versatile_1984}). Pozdější kybernetika se s tím vyrovnávala zapojením \textit{fuzzy logiky} (\cite{seising_cybernetics_2010}), to sebou samozřejmě přineslo vlastní problémy a není podstatné pro tuto práci.
+
+Méně prozaický důvod pro hledání podobností až do míry ztotožnění základních funkcionálních mechanismů v kybernetice nachází David A. Mindell. Kybernetický výzkum, jakkoli jej Wiener prezentuje jako především plod éry přespecializovaných vědních oborů a čisté intelektuální snahy o to překonat překážky, které byly stále více patrné v jednotlivých oborech i mezi nimi, nevznikal na čistě akademické půdě. Koneckonců i Wiener začíná \textit{Cybernetics, or Control and Communication in the  Animal and the Machine} popisem své práce na zaměřovacích systémech protiletadlových zbraní během druhé světové války. Krom systému, který by pomáhal předpovídat polohu letadla z jeho dosavadní trajektorie, jak je uvedeno výše, byl pro Wienera i ostatní na podobných projektech pracujících důležitý problém lidského operátora onoho systému. Plně autonomní systémy jsou záležitostí posledních let, a tak za druhé světové války byl kladen především důraz na systémy podpory pro lidského operátora. Toto rozhraní člověka a stroje dalo vyvstat problému reprezentace jak technologických událostí (elektrických či mechanických) pro člověka systém řídící, tak lidských motorických úkonů, které měl systém rozpoznat a správných způsobem podpořit. Wiener tak zdaleka nebyl jediný na podobných projektech pracující, NDRC, Národní Rada pro Obranný Výzkum (National Defence Research Committee) měla jak projekty, jako byl Wienerův, akomodující lidský kontrolní vstup do technického systému, tak projekty zaměřeny na výzkum nejlepších taktilních možností pro ovládání systéml. Mindell tak naznačuje, že základním důvodem, proč kybernetici pokládali organické a mechanické systémy za funkčně srovnatelné či dokonce totožné byl fakt, že bylo třeba tyto domény spojit a bylo obecným étosem na pracovišti pracovat s nimi jako s volně přeložitelnými jeden do druhého (\cite{mindell_between_2002}, s. 276-288).
 
 
-Jednou ze základních tezí kybernetiky je, že model řízení, komunikace a kontrolních mechanismů je totožný ve strojích i v živých organismech (\cite{wiener_cybernetics_2019}, s. 
 
-K tomuto závěru došel Wiener a další lidé z jeho skupiny na základě rozeznání zpětné vazby jako nepostradatelné součásti řídících systémů. Funkčnost zpětnovazební smyčky je obvykle nezávislá na zátěži,   
-
-
-
-
-\section{Krátce o nedeterministických systémech}
-
+\subsubsection{Kybernetika druhého řádu}
 
 
 
 
 \section{Matoušův efekt jako zpětnovazební smyčka ve společenském prostředí}
 
+pozitivní zpětnovazební smyčky na scéně. 
 
 
 
 \section{Hermeneutický kruh, porozumění a endocept}
 
-
-
-
-\section{Samsara, spirála a Ouroboros}
 
 
 
@@ -221,7 +216,9 @@ K tomuto závěru došel Wiener a další lidé z jeho skupiny na základě roze
 
 
 
+
 \section{Syntéza a sjednocení}
+
 
 
 
@@ -230,6 +227,7 @@ K tomuto závěru došel Wiener a další lidé z jeho skupiny na základě roze
 
 
 \newpage
+
 \printbibliography[heading=bibintoc, title={Bibliografie}]
 
 \end{document}
